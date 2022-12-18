@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>
+simple Calculator Using Html CSS and JAVascript
+    </title>
+<link rel="stylesheet" href="style.css">
+<script src="myscripts.js"></script>
+
+</head>
+<body>
+<div id ="main">
+    <form name="f">
+        <input type="text" name="txt" placeholder="0" id="none"> <br>
+        <input type="button" value="1" onclick="f.txt.value+=1">
+        <input type="button" value="2" onclick="f.txt.value+=2">
+        <input type="button" value="3" onclick="f.txt.value+=3">
+        <input type="button" value="+" onclick="Add()">
+        <br>
+        <input type="button" value="4" onclick="f.txt.value+=4">
+        <input type="button" value="5" onclick="f.txt.value+=5">
+        <input type="button" value="6" onclick="f.txt.value+=6">
+        <input type="button" value="-" onclick="sub()">
+        <br>
+        <input type="button" value="7" onclick="f.txt.value+=7">
+        <input type="button" value="8" onclick="f.txt.value+=8">
+        <input type="button" value="9" onclick="f.txt.value+=9">
+        <input type="button" value="/" onclick="Div()">
+        <br>
+        <input type="button" value="C" onclick="f.txt.value=''">
+        <input type="button" value="0" onclick="f.txt.value+=0">
+        <input type="button" value="=" onclick="f.txt.value=eval(f.txt.value)">
+        <input type="button" value="x" onclick="Mul()">
+        <br>
+</form>
+</div>
+
+</body>
+</html>

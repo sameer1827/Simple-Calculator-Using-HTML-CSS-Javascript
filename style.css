@@ -1,0 +1,19 @@
+
+#main
+{ width: 300px; height:280px;
+
+}
+input{
+    width:50px; height:50px;font-size:20px;margin:3;color:blueviolet;
+}
+body {
+    background-image: url('calc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 60%;
+}
+  #none
+  {
+    width:80%; height:30px;background-color:honeydew;
+  }
+
